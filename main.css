@@ -1,8 +1,28 @@
 
 
 .container{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+  display: flex;
+  flex-direction: column;
+  width: 60vh;
+  margin: 3rem;
+  padding: 1rem;
+  background-color: greenyellow;
+  align-items: center;
 }
+#check-button{
+    width: 20%;
+    background-color: green;
+    margin: 1rem;
+    color: white;
+}
+#bill-amount{
+    width: 50%;
+  }
+  #cash-given{
+    width: 50%;
+  }
+  .change-table{
+    margin: 1rem;
+    border: 1px solid black;
+  }
 
